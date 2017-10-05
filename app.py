@@ -41,14 +41,13 @@ def makeWebhookResult(req):
     print("Response:")
     print(speech)
 
-    return (speech)
-#    return {
-#        "speech": speech,
-#        "displayText": speech,
+    return {
+        "speech": speech,
+        "displayText": speech,
         #"data": {},
         # "contextOut": [],
-#        "source": "apiai-onlinestore-shipping"
-#    }
+        "source": "apiai-onlinestore-shipping"
+    }
 
 
 if __name__ == '__main__':
